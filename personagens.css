@@ -1,0 +1,141 @@
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.inknut-antiqua-medium {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    width: 97, 5%;
+    background-color: #581d22;
+    color: white;
+    padding: 0px;
+}
+
+.cabecalho img {
+    border-radius: 90px;
+}
+
+.cabecalho h1 {
+    font-family: "Instrument Serif", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu a {
+    transition: color 1s ease;
+    text-decoration: none;
+    font-family: "Instrument Serif", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.menu a:hover {
+    color: #ad8888;
+    transition: color 0.5s ease;
+    /* animation: forwards; */
+}
+
+.active {
+    text-decoration: none;
+    color: #ad8888;
+}
+
+.link {
+    color: #ffffff;
+}
+
+.personagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.personagens h1 {
+    color: #581d22;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 86PX;
+}
+
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.personagens h2 {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+.personagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.personagem img {
+    object-fit: cover;
+    height: 540px;
+    width: 100%;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .sobreLivro {
+        flex-direction: column;
+        gap: 0;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
